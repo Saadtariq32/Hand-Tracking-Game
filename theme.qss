@@ -1,0 +1,39 @@
+* { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial; color: #EAEAEA; }
+QMainWindow, QWidget { background-color: #0f1226; }
+
+QLabel#Title {
+    font-size: 32px; font-weight: 800; color: #ffffff; letter-spacing: 1px;
+}
+QLabel#Subtitle {
+    font-size: 13px; color: #C9C9D4;
+}
+QFrame#Card {
+    background: #15193a; border-radius: 20px; border: 1px solid #252a55;
+}
+QPushButton {
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:1,
+                                stop:0 #4c57ff, stop:1 #9a4cff);
+    border: none; color: white; padding: 12px 18px; border-radius: 14px;
+    font-size: 16px; font-weight: 700;
+}
+QPushButton#Ghost {
+    background: transparent; border: 1px solid #30345f; color: #d2d4ff;
+    padding: 10px 16px; border-radius: 12px; font-weight: 600;
+}
+QPushButton:disabled { background: #3a3f7a; color: #a9a9ca; }
+#TimerLabel {
+    background: rgba(0,0,0,140); padding: 8px 12px; border-radius: 12px;
+    font-size: 20px; font-weight: 800; color: #E6FF57;
+}
+#FpsLabel {
+    background: rgba(0,0,0,110); padding: 5px 8px; border-radius: 8px;
+    font-size: 12px; color: #D1D5F0;
+}
+#StatusPill {
+    background: #1f244d; color: #a7b3ff; padding: 6px 10px; border-radius: 12px;
+    font-size: 12px; font-weight: 700;
+}
+#ScoreLabel {
+    background: rgba(0,0,0,140); padding: 8px 12px; border-radius: 12px;
+    font-size: 18px; font-weight: 800; color: #57FFE3;
+}
